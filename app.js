@@ -9,7 +9,7 @@ var CHEMINS = {
 }
 var ADMINS = ["290097887247859726"/*Welzia*/,
               "153965058173566976"/*Grenadine, drogue des lucides*/];
-var QUESTIONS = ["Je suis le BATMAN"]
+var QUESTIONS = []
 var json = {
    Questions: []
 };
@@ -212,6 +212,7 @@ Ajouter une question dans le fichier "./questions.json"
         "``" + config.prefix + "philo help|aide`` Afficher cette liste\n"+
         "``" + config.prefix + "philo add`` Ajouter une question\n"+
         "``" + config.prefix + "philo liste`` Afficher la liste des questions\n"+
+        "``" + config.prefix + "philo reload`` Recharge la liste des questions\n"+
         "``" + config.prefix + "philo`` Générer une question\n");
         message.channel.send({embed})
         return
