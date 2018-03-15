@@ -255,4 +255,4 @@ Ajouter une question dans le fichier "./questions.json"
 
 
 
-bot.login('NDIzNTY1MjMyOTgwNjIzMzYw.DYsLqA.6gZYuqiF8egCxnSF_AUREuIlS_Y')
+bot.login(process.env.BOT_TOKEN) // Not twice "hakers" :P
